@@ -4,9 +4,27 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppWithUE5styles"
+        xmlns:views="clr-namespace:WpfAppWithUE5styles.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Height="900" Width="1232"
+        ResizeMode="CanResize"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True">
     <Grid>
-
+        <TabControl>
+            <TabItem Header="Colors">
+                <views:ColorsView ></views:ColorsView>
+            </TabItem>
+            <TabItem Header="Text">
+                <views:TextView></views:TextView>
+            </TabItem>
+            <TabItem Header="Icons">
+                <views:IconsView></views:IconsView>
+            </TabItem>
+            <TabItem Header="Starship Widgets">
+                <views:StarshipWidgetsView></views:StarshipWidgetsView>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
