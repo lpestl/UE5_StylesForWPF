@@ -5,8 +5,418 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfAppWithUE5styles.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="900" d:DesignWidth="1200">
     <Grid>
-            
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Orientation="Vertical" Margin="24">
+
+                <!--Base Colors-->
+                <TextBlock Text="BASE COLORS" 
+                           Margin="8,24,8,8"
+                           Foreground="{DynamicResource BaseBrushWhite50}"></TextBlock>
+
+                <WrapPanel Orientation="Horizontal">
+                    
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushBlack}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="BLACK" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="000000FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushTitle}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="TITLE" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="151515FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushWindowBorder}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="WINDOW BORDER" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Text="0F0F0FFF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushFoldOut}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="FOLDOUT" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="0F0F0FFF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushInput}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="INPUT" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="0F0F0FFF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushRecessed}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="RECESSED" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="1A1A1AFF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushBackground}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="BACKGROUND" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="151515FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushHeader}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="HEADER" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="2F2F2FFF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushDropDown}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="DROPDOWN" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="383838FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushHover}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="HOVER" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="575757FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushHover2}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="HOVER2" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="808080FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushWhite}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="WHITE" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="FFFFFFFF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushWhite25}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="WHITE25" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="FFFFFF40" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushPrimary}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="PRIMARY" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="26BBFFF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushPrimaryHover}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="PRIMARY HOVER" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Text="6FD2FFFF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushPrimaryPress}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="PRIMARY  PRESS" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Text="1989BCFF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource BaseBrushSecondary}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="SECONDARY" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="383838FF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+                </WrapPanel>
+
+                <!--Foreground Colors-->
+                <TextBlock Text="FOREGROUND COLORS" 
+                           Margin="8,24,8,8"
+                           Foreground="{DynamicResource BaseBrushWhite50}"></TextBlock>
+
+                <WrapPanel Orientation="Horizontal">
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource ForegroundBrush}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="FOREGROUND" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="C0C0C0FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource ForegroundBrushHovered}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="FOREGROUND HOVER" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Text="FFFFFFFF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource ForegroundBrushInverted}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="FOREGROUND INVERTED" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Text="0F0F0FFF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource ForegroundBrushHighlight}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="HIGHLIGHT" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="0078D7FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource ForegroundBrushHeader}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="FOREGROUND HEADER" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Text="C8C8C8FF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource ForegroundBrushSelect}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="SELECT" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Text="26BBFFFF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource ForegroundBrushSelectHover}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="SELECT      HOVER" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Text="242424FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource ForegroundBrushSelectParent}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="SELECT    PARENT" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Text="2C323AFF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource ForegroundBrushSelectInactive}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="SELECT    INACTIVE" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Text="99B3BFFF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                </WrapPanel>
+
+                <!--Accent Colors-->
+                <TextBlock Text="ACCENT COLORS" 
+                           Margin="8,24,8,8"
+                           Foreground="{DynamicResource BaseBrushWhite50}"></TextBlock>
+
+                <WrapPanel Orientation="Horizontal">
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource AccentBrushBlue}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="BLUE" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="26BBFFFF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource AccentBrushPurple}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="PURPLE" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="A139BFFF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource AccentBrushPink}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="PINK" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="FF729CFF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource AccentBrushRed}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="RED" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="FF4040FF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource AccentBrushOrange}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="ORANGE" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="FE9B07FF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource AccentBrushYellow}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="YELLOW" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="FFDC1AFF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource AccentBrushGreen}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="GREEN" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="8BC24AFF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource AccentBrushBrown}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="BROWN" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="804D39FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource AccentBrushFolder}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="FOLDER" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="B68F55FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            BorderBrush="{DynamicResource BaseBrushBlack}" BorderThickness="1"
+                            Background="{DynamicResource AccentBrushBlack}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="BLACK" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="242424FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource AccentBrushGray}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="GRAY" Foreground="{DynamicResource BaseBrushWhite}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="808080FF" Foreground="{DynamicResource BaseBrushWhite}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Width="120" Height="100" 
+                            Margin="8"
+                            CornerRadius="6"
+                            Background="{DynamicResource AccentBrushWhite}">
+                        <StackPanel Orientation="Vertical" Margin="12" VerticalAlignment="Bottom">
+                            <TextBlock Text="WHITE" Foreground="{DynamicResource BaseBrushBackground}" FontWeight="Bold"></TextBlock>
+                            <TextBlock Text="FFFFFFFF" Foreground="{DynamicResource BaseBrushBackground}" ></TextBlock>
+                        </StackPanel>
+                    </Border>
+
+                </WrapPanel>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </UserControl>

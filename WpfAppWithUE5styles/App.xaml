@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:WpfAppWithUE5styles"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+         <ResourceDictionary>
+             <ResourceDictionary.MergedDictionaries>
+                 <ResourceDictionary Source="pack://application:,,,/WpfUE5Styles;component/Resources/Themes/SkinDefault.xaml"></ResourceDictionary>
+                 <ResourceDictionary Source="pack://application:,,,/WpfUE5Styles;component/Resources/Themes/StarshipTheme.xaml"></ResourceDictionary>
+             </ResourceDictionary.MergedDictionaries>
+         </ResourceDictionary>
     </Application.Resources>
 </Application>

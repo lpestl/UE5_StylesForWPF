@@ -4,11 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppWithUE5styles", "WpfAppWithUE5styles\WpfAppWithUE5styles.csproj", "{EC66D76D-090D-4F28-98C2-1FFD51BD51C6}"
-	ProjectSection(ProjectDependencies) = postProject
-		{5CD244FF-24F3-41CD-821F-65E5ABA741F0} = {5CD244FF-24F3-41CD-821F-65E5ABA741F0}
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UE5Styles", "UE5Styles\UE5Styles.csproj", "{5CD244FF-24F3-41CD-821F-65E5ABA741F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfUE5Styles", "WpfUE5Styles\WpfUE5Styles.csproj", "{DF013F51-333C-4A2D-9409-7F6E0FF0AA26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +17,10 @@ Global
 		{EC66D76D-090D-4F28-98C2-1FFD51BD51C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC66D76D-090D-4F28-98C2-1FFD51BD51C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC66D76D-090D-4F28-98C2-1FFD51BD51C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5CD244FF-24F3-41CD-821F-65E5ABA741F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5CD244FF-24F3-41CD-821F-65E5ABA741F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5CD244FF-24F3-41CD-821F-65E5ABA741F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5CD244FF-24F3-41CD-821F-65E5ABA741F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF013F51-333C-4A2D-9409-7F6E0FF0AA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF013F51-333C-4A2D-9409-7F6E0FF0AA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF013F51-333C-4A2D-9409-7F6E0FF0AA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF013F51-333C-4A2D-9409-7F6E0FF0AA26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

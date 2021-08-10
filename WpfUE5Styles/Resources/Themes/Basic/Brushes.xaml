@@ -1,0 +1,48 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:o="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+    
+    <!--Solid brushes-->
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushBlack" Color="{DynamicResource BaseColorBlack}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushTitle" Color="{DynamicResource BaseColorTitle}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushWindowBorder" Color="{DynamicResource BaseColorWindowBorder}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushFoldOut" Color="{DynamicResource BaseColorFoldOut}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushInput" Color="{DynamicResource BaseColorInput}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushRecessed" Color="{DynamicResource BaseColorRecessed}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushBackground" Color="{DynamicResource BaseColorBackground}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushHeader" Color="{DynamicResource BaseColorHeader}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushDropDown" Color="{DynamicResource BaseColorDropDown}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushHover" Color="{DynamicResource BaseColorHover}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushHover2" Color="{DynamicResource BaseColorHover2}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushWhite" Color="{DynamicResource BaseColorWhite}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushWhite25" Color="{DynamicResource BaseColorWhite25}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushWhite50" Color="{DynamicResource BaseColorWhite50}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushPrimary" Color="{DynamicResource BaseColorPrimary}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushPrimaryHover" Color="{DynamicResource BaseColorPrimaryHover}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushPrimaryPress" Color="{DynamicResource BaseColorPrimaryPress}" />
+    <SolidColorBrush o:Freeze="True" x:Key="BaseBrushSecondary" Color="{DynamicResource BaseColorSecondary}" />
+
+    <SolidColorBrush o:Freeze="True" x:Key="ForegroundBrush" Color="{DynamicResource ForegroundColor}" />
+    <SolidColorBrush o:Freeze="True" x:Key="ForegroundBrushHovered" Color="{DynamicResource ForegroundColorHovered}" />
+    <SolidColorBrush o:Freeze="True" x:Key="ForegroundBrushInverted" Color="{DynamicResource ForegroundColorInverted}" />
+    <SolidColorBrush o:Freeze="True" x:Key="ForegroundBrushHighlight" Color="{DynamicResource ForegroundColorHighlight}" />
+    <SolidColorBrush o:Freeze="True" x:Key="ForegroundBrushHeader" Color="{DynamicResource ForegroundColorHeader}" />
+    <SolidColorBrush o:Freeze="True" x:Key="ForegroundBrushSelect" Color="{DynamicResource ForegroundColorSelect}" />
+    <SolidColorBrush o:Freeze="True" x:Key="ForegroundBrushSelectHover" Color="{DynamicResource ForegroundColorSelectHover}" />
+    <SolidColorBrush o:Freeze="True" x:Key="ForegroundBrushSelectParent" Color="{DynamicResource ForegroundColorSelectParent}" />
+    <SolidColorBrush o:Freeze="True" x:Key="ForegroundBrushSelectInactive" Color="{DynamicResource ForegroundColorSelectInactive}" />
+
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushBlue" Color="{DynamicResource AccentBlue}" />
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushPurple" Color="{DynamicResource AccentPurple}" />
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushPink" Color="{DynamicResource AccentPink}" />
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushRed" Color="{DynamicResource AccentRed}" />
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushOrange" Color="{DynamicResource AccentOrange}" />
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushYellow" Color="{DynamicResource AccentYellow}" />
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushGreen" Color="{DynamicResource AccentGreen}" />
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushBrown" Color="{DynamicResource AccentBrown}" />
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushFolder" Color="{DynamicResource AccentFolder}" />
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushBlack" Color="{DynamicResource AccentBlack}" />
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushGray" Color="{DynamicResource AccentGray}" />
+    <SolidColorBrush o:Freeze="True" x:Key="AccentBrushWhite" Color="{DynamicResource AccentWhite}" />
+
+</ResourceDictionary>

@@ -6,11 +6,8 @@
         xmlns:local="clr-namespace:WpfAppWithUE5styles"
         xmlns:views="clr-namespace:WpfAppWithUE5styles.Views"
         mc:Ignorable="d"
-        Height="900" Width="1232"
-        ResizeMode="CanResize"
         WindowStartupLocation="CenterScreen"
-        WindowStyle="None"
-        AllowsTransparency="True">
+        Height="980" Width="1332" >
     <Grid>
         <TabControl>
             <TabItem Header="Colors">
