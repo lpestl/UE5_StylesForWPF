@@ -24,5 +24,27 @@ namespace WpfAppWithUE5styles
         {
             InitializeComponent();
         }
+
+        private void MainWindow_OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
+
+        private void MainWindow_OnStateChanged(object? sender, EventArgs e)
+        {
+            if (WindowState == WindowState.Maximized)
+                WindowState = WindowState.Normal;
+        }
+
+        public override void OnApplyTemplate()
+        {
+            if (GetTemplateChild("CloseButton") is Button closeButton)
+                closeButton.Click += CloseClick;
+        }
+
+        private void CloseClick(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

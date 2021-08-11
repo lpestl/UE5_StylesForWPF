@@ -6,7 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\Themes\Styles\" />
+    <Resource Include="Resources\Themes\Basic\Fonts\CloisterBlack.ttf" />
+    <Resource Include="Resources\Themes\Basic\Fonts\Tahoma-Bold.ttf" />
+    <Resource Include="Resources\Themes\Basic\Fonts\Tahoma.ttf" />
+    <Resource Include="Resources\Themes\Basic\Fonts\VampireWars\license.txt" />
+    <Resource Include="Resources\Themes\Basic\Fonts\VampireWars\VampireWars.otf" />
+    <Resource Include="Resources\Themes\Basic\Fonts\VampireWars\VampireWars.ttf" />
+    <Resource Include="Resources\Themes\Basic\Fonts\VampireWars\VampireWars-Italic.otf" />
+    <Resource Include="Resources\Themes\Basic\Fonts\VampireWars\VampireWars-Italic.ttf" />
   </ItemGroup>
 
 </Project>

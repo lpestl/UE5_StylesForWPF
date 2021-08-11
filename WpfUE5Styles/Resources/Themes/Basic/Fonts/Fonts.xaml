@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <FontFamily x:Key="Tahoma">pack://application:,,,/WpfUE5Styles;component/Resources/Themes/Basic/Fonts/Tahoma.ttf#Tahoma</FontFamily>
+    <FontFamily x:Key="CloisterBlack">pack://application:,,,/WpfUE5Styles;component/Resources/Themes/Basic/Fonts/CloisterBlack.ttf#Cloister Black</FontFamily>
+    <FontFamily x:Key="VampireWars">pack://application:,,,/WpfUE5Styles;component/Resources/Themes/Basic/Fonts/VampireWars/VampireWars.ttf#Vampire Wars</FontFamily>
+
+</ResourceDictionary>

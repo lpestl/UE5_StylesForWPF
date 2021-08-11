@@ -7,9 +7,18 @@
         xmlns:views="clr-namespace:WpfAppWithUE5styles.Views"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Height="980" Width="1332" >
+        Height="980" Width="1332" 
+        ResizeMode="CanResize"
+        Style="{DynamicResource StarshipBaseWindow}"
+        Title="Bla-bla-bla-bla-bla"
+        Icon="Resources/icon.png"
+        StateChanged="MainWindow_OnStateChanged"
+        MouseLeftButtonDown="MainWindow_OnMouseLeftButtonDown">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0" ResizeBorderThickness="2"></WindowChrome>
+    </WindowChrome.WindowChrome>
     <Grid>
-        <TabControl>
+        <TabControl Margin="2">
             <TabItem Header="Colors">
                 <views:ColorsView ></views:ColorsView>
             </TabItem>
