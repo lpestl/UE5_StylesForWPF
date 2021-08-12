@@ -15,20 +15,20 @@
         StateChanged="MainWindow_OnStateChanged"
         MouseLeftButtonDown="MainWindow_OnMouseLeftButtonDown">
     <WindowChrome.WindowChrome>
-        <WindowChrome CaptionHeight="0" ResizeBorderThickness="2"></WindowChrome>
+        <WindowChrome CaptionHeight="0" ResizeBorderThickness="3"></WindowChrome>
     </WindowChrome.WindowChrome>
     <Grid>
-        <TabControl Margin="2">
-            <TabItem Header="Colors">
+        <TabControl Margin="2" Style="{DynamicResource StarshipTabControl}">
+            <TabItem Header="Colors" Style="{DynamicResource StarshipTabItem}">
                 <views:ColorsView ></views:ColorsView>
             </TabItem>
-            <TabItem Header="Text">
+            <TabItem Header="Text" Style="{DynamicResource StarshipTabItem}">
                 <views:TextView></views:TextView>
             </TabItem>
-            <TabItem Header="Icons">
+            <TabItem Header="Icons" Style="{DynamicResource StarshipTabItem}">
                 <views:IconsView></views:IconsView>
             </TabItem>
-            <TabItem Header="Starship Widgets">
+            <TabItem Header="Starship Widgets" Style="{DynamicResource StarshipTabItem}">
                 <views:StarshipWidgetsView></views:StarshipWidgetsView>
             </TabItem>
         </TabControl>
