@@ -45,4 +45,11 @@
     <SolidColorBrush o:Freeze="True" x:Key="AccentBrushGray" Color="{DynamicResource AccentGray}" />
     <SolidColorBrush o:Freeze="True" x:Key="AccentBrushWhite" Color="{DynamicResource AccentWhite}" />
 
+    <!--Gradients-->
+    <LinearGradientBrush x:Key="BlueHighlightHorizontal" StartPoint="0,0.5" EndPoint="1,0.5">
+        <GradientStop Color="Transparent" Offset="0"></GradientStop>
+        <GradientStop Color="{DynamicResource BaseColorPrimary}" Offset="0.5"></GradientStop>
+        <GradientStop Color="Transparent" Offset="1"></GradientStop>
+    </LinearGradientBrush>
+
 </ResourceDictionary>

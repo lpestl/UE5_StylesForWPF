@@ -9,26 +9,26 @@
         WindowStartupLocation="CenterScreen"
         Height="980" Width="1332" 
         ResizeMode="CanResize"
-        Style="{DynamicResource StarshipBaseWindow}"
-        Title="Bla-bla-bla-bla-bla"
+        Title="WPF like as Slate Starship style"
         Icon="Resources/icon.png"
+        Style="{DynamicResource StarshipBaseWindow}"
         StateChanged="MainWindow_OnStateChanged"
         MouseLeftButtonDown="MainWindow_OnMouseLeftButtonDown">
     <WindowChrome.WindowChrome>
         <WindowChrome CaptionHeight="0" ResizeBorderThickness="3"></WindowChrome>
     </WindowChrome.WindowChrome>
     <Grid>
-        <TabControl Margin="2" Style="{DynamicResource StarshipTabControl}">
-            <TabItem Header="Colors" Style="{DynamicResource StarshipTabItem}">
+        <TabControl Margin="2">
+            <TabItem Header="Colors">
                 <views:ColorsView ></views:ColorsView>
             </TabItem>
-            <TabItem Header="Text" Style="{DynamicResource StarshipTabItem}">
+            <TabItem Header="Text">
                 <views:TextView></views:TextView>
             </TabItem>
-            <TabItem Header="Icons" Style="{DynamicResource StarshipTabItem}">
+            <TabItem Header="Icons">
                 <views:IconsView></views:IconsView>
             </TabItem>
-            <TabItem Header="Starship Widgets" Style="{DynamicResource StarshipTabItem}">
+            <TabItem Header="Starship Widgets">
                 <views:StarshipWidgetsView></views:StarshipWidgetsView>
             </TabItem>
         </TabControl>
