@@ -11,6 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="SharpVectors" Version="1.7.6" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\WpfUE5Styles\WpfUE5Styles.csproj" />
   </ItemGroup>
 

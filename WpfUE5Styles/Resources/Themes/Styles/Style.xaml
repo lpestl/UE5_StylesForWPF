@@ -119,7 +119,6 @@
                         <Border Name="Border" 
                                 Background="{DynamicResource BaseBrushTitle}" 
                                 CornerRadius="4,4,0,0" 
-                                BorderBrush="{DynamicResource BlueHighlightHorizontal}"
                                 Margin="0">
                             <ContentPresenter x:Name="ContentSite"
                                           VerticalAlignment="Center"
@@ -133,9 +132,23 @@
                         <Line Margin="1,0,-1,0" Name="LineRight" X1="0" X2="0" Y1="4" Y2="20" Stroke="{DynamicResource BaseBrushHover}" HorizontalAlignment="Right"></Line>
                     </Grid>
                     <ControlTemplate.Triggers>
+                        <Trigger SourceName="TabHeaderPanel" Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Border" Property="Background" Value="{DynamicResource ForegroundBrushSelectHover}"></Setter>
+                            <Setter TargetName="Border" Property="BorderThickness" Value="0,0,0,1"></Setter>
+                            <Setter TargetName="Border" Property="BorderBrush" Value="{DynamicResource BaseBrushTitle}"></Setter>
+                            <Setter TargetName="LineLeft" Property="Stroke" Value="Transparent"></Setter>
+                            <Setter TargetName="LineRight" Property="Stroke" Value="Transparent"></Setter>
+                            <Setter Property="Panel.ZIndex" Value="1000"></Setter>
+                            <Setter TargetName="Border" Property="RenderTransform">
+                                <Setter.Value>
+                                    <ScaleTransform CenterX="80" CenterY="14" ScaleX="1.01" ScaleY="1.01"></ScaleTransform>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
                         <Trigger Property="IsSelected" Value="True">
                             <Setter TargetName="Border" Property="Background" Value="{DynamicResource ForegroundBrushSelectHover}"></Setter>
                             <Setter TargetName="Border" Property="BorderThickness" Value="0,1,0,0"></Setter>
+                            <Setter TargetName="Border" Property="BorderBrush" Value="{DynamicResource BlueHighlightHorizontal}"></Setter>
                             <Setter TargetName="LineLeft" Property="Stroke" Value="Transparent"></Setter>
                             <Setter TargetName="LineRight" Property="Stroke" Value="Transparent"></Setter>
                             <Setter Property="Panel.ZIndex" Value="1000"></Setter>
